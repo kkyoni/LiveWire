@@ -1,0 +1,68 @@
+select{margin: 0;font: inherit;color: inherit}
+select {text-transform: none}
+@media print {
+    select {background: #fff !important}
+}
+select{font-family: inherit;font-size: inherit;line-height: inherit}
+select[multiple],select[size] {height: auto}
+select.input-sm {height: 30px;line-height: 30px}
+select[multiple].input-sm {height: auto}
+select.input-lg {height: 46px;line-height: 46px}
+select[multiple].input-lg {height: auto}
+.btn {display: inline-block;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 1px solid transparent;border-radius: 4px}
+.btn:focus,.btn:active:focus,.btn.active:focus {outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px}
+.btn:hover,.btn:focus {color: #333;text-decoration: none}
+.btn:active,.btn.active {background-image: none;outline: 0;-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)}
+.btn.disabled,.btn[disabled],fieldset[disabled] .btn {pointer-events: none;cursor: not-allowed;filter: alpha(opacity=65);-webkit-box-shadow: none;box-shadow: none;opacity: .65}
+.btn-default {color: #333;background-color: #fff;border-color: #ccc}
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {color: #333;background-color: #e6e6e6;border-color: #adadad}
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {background-image: none}
+.btn-default.disabled,.btn-default[disabled],fieldset[disabled] .btn-default,.btn-default.disabled:hover,.btn-default[disabled]:hover,fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus,.btn-default[disabled]:focus,fieldset[disabled] .btn-default:focus,.btn-default.disabled:active,.btn-default[disabled]:active,fieldset[disabled] .btn-default:active,.btn-default.disabled.active,.btn-default[disabled].active,fieldset[disabled] .btn-default.active {background-color: #fff;border-color: #ccc}
+.btn-default .badge {color: #fff;background-color: #333}
+.btn-primary {background-image: linear-gradient(310deg,#5e72e4,#825ee4);--bs-btn-color: #fff;--bs-btn-hover-color: #fff;--bs-btn-hover-bg: #5e72e4;--bs-btn-hover-border-color: #5e72e4;--bs-btn-border-color: #5e72e4;--bs-btn-active-color: #fff;--bs-btn-active-bg: #5e72e4;--bs-btn-active-border-color: #5e72e4;}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {color: #fff;background-color: #3071a9;border-color: #285e8e}
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {background-image: none}
+.btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active {background-color: #428bca;border-color: #357ebd}
+.btn-primary .badge {color: #428bca;background-color: #fff}
+.btn-success {color: #fff;background-color: #5cb85c;border-color: #4cae4c}
+.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success {color: #fff;background-color: #449d44;border-color: #398439}
+.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success {background-image: none}
+.btn-success.disabled,.btn-success[disabled],fieldset[disabled] .btn-success,.btn-success.disabled:hover,.btn-success[disabled]:hover,fieldset[disabled] .btn-success:hover,.btn-success.disabled:focus,.btn-success[disabled]:focus,fieldset[disabled] .btn-success:focus,.btn-success.disabled:active,.btn-success[disabled]:active,fieldset[disabled] .btn-success:active,.btn-success.disabled.active,.btn-success[disabled].active,fieldset[disabled] .btn-success.active {background-color: #5cb85c;border-color: #4cae4c}
+.btn-success .badge {color: #5cb85c;background-color: #fff}
+.btn-info {color: #fff;background-color: #5bc0de;border-color: #46b8da}
+.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.dropdown-toggle.btn-info {color: #fff;background-color: #31b0d5;border-color: #269abc}
+.btn-info:active,.btn-info.active,.open>.dropdown-toggle.btn-info {background-image: none}
+.dropdown {position: relative}
+.dropdown-toggle:focus {outline: 0}
+.dropdown-menu {position: absolute;top: 100%;left: 0;z-index: 1000;display: none;float: left;min-width: 160px;padding: 5px 0;margin: 2px 0 0;font-size: 14px;text-align: left;list-style: none;background-color: #fff;-webkit-background-clip: padding-box;background-clip: padding-box;border: 1px solid #ccc;border: 1px solid rgba(0, 0, 0, .15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);box-shadow: 0 6px 12px rgba(0, 0, 0, .175)}
+.dropdown-menu.pull-right {right: 0;left: auto}
+.dropdown-menu .divider {height: 1px;margin: 9px 0;overflow: hidden;background-color: #e5e5e5}
+.dropdown-menu>li>a {display: block;padding: 3px 20px;clear: both;font-weight: 400;line-height: 1.42857143;color: #333;white-space: nowrap}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {color: #262626;text-decoration: none;background-color: #f5f5f5}
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus {color: #fff;text-decoration: none;background-color: #428bca;outline: 0}
+.dropdown-menu>.disabled>a,.dropdown-menu>.disabled>a:hover,.dropdown-menu>.disabled>a:focus {color: #777}
+.open>.dropdown-menu {display: block}
+select.input-group-lg>.form-control,select.input-group-lg>.input-group-addon,select.input-group-lg>.input-group-btn>.btn {height: 46px;line-height: 46px}
+textarea.input-group-lg>.form-control,textarea.input-group-lg>.input-group-addon,textarea.input-group-lg>.input-group-btn>.btn,select[multiple].input-group-lg>.form-control,
+select[multiple].input-group-lg>.input-group-addon,select[multiple].input-group-lg>.input-group-btn>.btn {height: auto}
+select.input-group-sm>.form-control,select.input-group-sm>.input-group-addon,select.input-group-sm>.input-group-btn>.btn {height: 30px;line-height: 30px}
+textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon,textarea.input-group-sm>.input-group-btn>.btn,select[multiple].input-group-sm>.form-control,
+select[multiple].input-group-sm>.input-group-addon,select[multiple].input-group-sm>.input-group-btn>.btn {height: auto}
+.hidden {display: none !important;visibility: hidden !important}
+button,input,optgroup,select,textarea {margin: 0;font: inherit;color: inherit}
+button,select {text-transform: none}
+@media print {
+    select {background: #fff !important}
+}
+input,button,select,textarea {font-family: inherit;font-size: inherit;line-height: inherit}
+select[multiple],select[size] {height: auto}
+select.input-sm {height: 30px;line-height: 30px}
+textarea.input-sm,select[multiple].input-sm {height: auto}
+select.input-lg {height: 46px;line-height: 46px}
+textarea.input-lg,select[multiple].input-lg {height: auto}
+select.input-group-lg>.form-control,select.input-group-lg>.input-group-addon,select.input-group-lg>.input-group-btn>.btn {height: 46px;line-height: 46px}
+textarea.input-group-lg>.form-control,textarea.input-group-lg>.input-group-addon,textarea.input-group-lg>.input-group-btn>.btn,select[multiple].input-group-lg>.form-control,
+select[multiple].input-group-lg>.input-group-addon,select[multiple].input-group-lg>.input-group-btn>.btn {height: auto}
+.input-group-sm>.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.btn {height: 30px;padding: 5px 10px;font-size: 12px;line-height: 1.5;border-radius: 3px}
+select.input-group-sm>.form-control,select.input-group-sm>.input-group-addon,select.input-group-sm>.input-group-btn>.btn {height: 30px;line-height: 30px}
+textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon,textarea.input-group-sm>.input-group-btn>.btn,select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.input-group-addon,select[multiple].input-group-sm>.input-group-btn>.btn {height: auto}
